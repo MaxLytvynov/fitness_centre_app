@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Програма лояльності</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .loyalty-card {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .loyalty-card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .loyalty-card p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .loyalty-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Програма лояльності</h1>
+    <p>Вітаємо вас в програмі лояльності! Зареєструйтеся або увійдіть, щоб почати отримувати вигоди.</p>
+
+    <div class="loyalty-card">
+        <img src="loyalty_card.png" alt="Loyalty Card">
+        <h2>Ваша карта лояльності</h2>
+        <p>Зареєстровано: {{login}}</p>
+        <p>Бали: </p>
+    </div>
+</div>
+
+</body>
+</html>
